@@ -15,6 +15,7 @@ public:
 	float getNota1();
 	float getNota2();
 	float getNota3();
+	float calcpromedio();
 private:
 	std::string nombre;
 	std::string matricula;
