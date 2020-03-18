@@ -42,3 +42,28 @@ void Alumno::setNota3(float not3)
 {
 	nota3 = not3;
 }
+
+std::string Alumno::getNombre()
+{
+	return nombre;
+}
+
+std::string Alumno::getMatricula()
+{
+	return matricula;
+}
+
+float Alumno::getNota1()
+{
+	return nota1;
+}
+
+float Alumno::getNota2()
+{
+	return nota2;
+}
+
+float Alumno::getNota3()
+{
+	return nota3;
+}

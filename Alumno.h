@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-
 class Alumno
 {
 public:
@@ -11,7 +10,11 @@ public:
 	void setNota1(float not1);
 	void setNota2(float not2);
 	void setNota3(float not3);
-
+	std::string getNombre();
+	std::string getMatricula();
+	float getNota1();
+	float getNota2();
+	float getNota3();
 private:
 	std::string nombre;
 	std::string matricula;
